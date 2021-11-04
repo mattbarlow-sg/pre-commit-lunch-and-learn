@@ -29,7 +29,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_owned"></a> [owned](#input\_owned) | Owned of the project | `string` | `"me_too"` | no |
+| <a name="input_owned"></a> [owned](#input\_owned) | Owned of the project | `string` | `"me"` | no |
 | <a name="input_owner"></a> [owner](#input\_owner) | Owner of the project | `string` | `"me"` | no |
 
 ## Outputs
