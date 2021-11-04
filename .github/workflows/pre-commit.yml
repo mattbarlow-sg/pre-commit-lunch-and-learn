@@ -30,6 +30,9 @@ jobs:
         version:
           - ${{ needs.getBaseVersion.outputs.maxVersion }}
     steps:
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '^1.16.6'
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install Python
