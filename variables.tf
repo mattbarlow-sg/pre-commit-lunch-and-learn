@@ -7,5 +7,5 @@ variable "owner" {
 variable "owned" {
   description = "Owned of the project"
   type        = string
-  default     = "me"
+  default     = "me_too"
 }
