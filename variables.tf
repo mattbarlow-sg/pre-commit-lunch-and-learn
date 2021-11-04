@@ -1,3 +1,5 @@
 variable "owner" {
-  default = "me"
+  description = "Owner of the project"
+  type        = string
+  default     = "me"
 }
