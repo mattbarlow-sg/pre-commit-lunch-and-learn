@@ -28,7 +28,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_owner"></a> [owner](#input\_owner) | Owner of the project | `string` | `"me"` | no |
+| <a name="input_owner"></a> [owner](#input\_owner) | yeah we need this | `string` | `"me"` | no |
 
 ## Outputs
 
