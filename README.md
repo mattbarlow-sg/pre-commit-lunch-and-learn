@@ -1,4 +1,4 @@
-# pre-commit-lunch-and-learn
+# pre-commit Lunch And Learn
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
