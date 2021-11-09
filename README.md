@@ -23,11 +23,14 @@ No modules.
 | Name | Type |
 |------|------|
 | [null_resource.this](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
+| [null_resource.this-too](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_Client"></a> [Client](#input\_Client) | n/a | `string` | `"me"` | no |
+| <a name="input_consumer"></a> [consumer](#input\_consumer) | n/a | `string` | `"you"` | no |
 | <a name="input_owner"></a> [owner](#input\_owner) | Owner of the project | `string` | `"me"` | no |
 
 ## Outputs

@@ -3,3 +3,13 @@ variable "owner" {
   type        = string
   default     = "me"
 }
+
+variable "Client" {
+  type    = string
+  default = "me"
+}
+
+variable "consumer" {
+  type    = string
+  default = "you"
+}
