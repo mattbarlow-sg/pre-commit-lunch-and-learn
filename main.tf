@@ -4,9 +4,9 @@ resource "null_resource" "this" {
   }
 }
 
-// Adding a client as well
-resource "null_resource" "this-too" {
+# Adding a client as well
+resource "null_resource" "this_too" {
   provisioner "local-exec" {
-    command = "echo ${var.Client} > file_${null_resource.this.id}.txt"
+    command = "echo ${var.client} > file_${null_resource.this.id}.txt"
   }
 }

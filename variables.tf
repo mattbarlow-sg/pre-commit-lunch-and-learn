@@ -4,12 +4,8 @@ variable "owner" {
   default     = "me"
 }
 
-variable "Client" {
-  type    = string
-  default = "me"
-}
-
-variable "consumer" {
-  type    = string
-  default = "you"
+variable "client" {
+  type        = string
+  description = "Description"
+  default     = "me"
 }
