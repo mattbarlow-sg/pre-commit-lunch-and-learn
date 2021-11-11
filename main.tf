@@ -3,3 +3,10 @@ resource "null_resource" "this" {
     command = "echo ${var.owner} > file_${null_resource.this.id}.txt"
   }
 }
+
+# Adding a client as well
+resource "null_resource" "this_too" {
+  provisioner "local-exec" {
+    command = "echo ${var.client} > file_${null_resource.this.id}.txt"
+  }
+}

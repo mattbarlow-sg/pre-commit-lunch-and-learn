@@ -3,3 +3,9 @@ variable "owner" {
   type        = string
   default     = "me"
 }
+
+variable "client" {
+  type        = string
+  description = "Description"
+  default     = "me"
+}
